@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+.active a{
+    background: #2F223E;;
+    color: white;
+}
+
+.page-item:hover a{
+    background: #FEBD64;
+    color: white;
+}
+
+.page-item a{
+    border-top: 1px solid #2F223E;
+    border-bottom: 1px solid #2F223E;
+}
+
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../public/static/background.png');
+}
+
+.-z-index-1{
+    z-index: -1;
+}
+
+.z-index-5{
+    z-index: 5;
+}
+
+.header-bg{
+    background: #291F35;
+}
+
+.A4C8F2{
+    background-color: #FDD8A5;
+}
+
+.A638EC0{
+    background-color: #FFB381;
+
+}
+.CE007C{
+    color: #FFB381;
+}
+
+.Ob1127{
+    background-color: #76465F;
+}
+
+.description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+ .title{height: 56px;}
